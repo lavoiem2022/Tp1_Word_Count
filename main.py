@@ -1,6 +1,6 @@
 chaine = input("Entrez Le Texte")
-def world_count():
-    print(len(chaine.split("")))
+def word_count():
+    print(len(chaine.split(" ")))
 word_count()
 
 
